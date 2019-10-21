@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="needit_staging" max_length="40" name="x_58872_needit_needit_staging" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Application" label="Application" max_length="40" name="u_application" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned To" label="Assigned To" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Blocked" label="Blocked" max_length="40" name="u_blocked" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comments" label="Comments" max_length="6012" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="4194" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Feature" label="Feature " max_length="63" name="u_feature" type="string"/>
+        <element attributes="import_attribute_name=ID" label="ID" max_length="40" name="u_id" type="integer"/>
+        <element attributes="import_attribute_name=Linked Items" label="Linked Items" max_length="40" name="u_linked_items" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="108" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Release" label="Release" max_length="40" name="u_release" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sprint" label="Sprint" max_length="40" name="u_sprint" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Story Points" label="Story Points" max_length="40" name="u_story_points" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Team" label="Team" max_length="40" name="u_team" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Theme" label="Theme" max_length="62" name="u_theme" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=User Reference (Backlog)" label="User Reference (Backlog)" max_length="40" name="u_user_reference__backlog_" type="string"/>
+    </element>
+</database>
